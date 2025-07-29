@@ -13,7 +13,7 @@ export const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">Full-Stack Developer</h3>
             <p className="text-muted-foreground">
-              I’m Agorua Chikaodi, a passionate full-stack developer and smart
+              I am a passionate full-stack developer and smart
               contract engineer, skilled in building responsive, accessible, and
               high-performance web and mobile applications. With hands-on
               experience in cutting-edge technologies like NestJS, React Native,
