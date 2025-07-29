@@ -31,7 +31,7 @@ export const NavBar = () => {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between pr-20">
         <a
           className="text-2xl font-bold text-primary flex items-center"
           href="#hero"
@@ -71,7 +71,7 @@ export const NavBar = () => {
               : "opacity-0 pointer-events-none"
           )}
         >
-          <div className="flex flec-col space-y-8 text-xl">
+          <div className="flex flex-col space-y-8 text-xl">
             {NavItems.map((items, key) => (
               <a
                 href={items.href}
