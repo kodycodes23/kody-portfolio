@@ -4,7 +4,8 @@ const projects = [
   {
     id: 1,
     title: "Quantum Health Frontend",
-    description: "An AI-powered telemedicine assistant that delivers personalized, doctor-verified health insights using wearable data — seamlessly integrated with hospitals and insurers.",
+    description:
+      "An AI-powered telemedicine assistant that delivers personalized, doctor-verified health insights using wearable data — seamlessly integrated with hospitals and insurers.",
     image: "/projects/QuantumProject.png",
     tags: ["React", "Vite", "Typescript", "HTML/CSS"],
     demoURL: "https://quantm-frontend.vercel.app/",
@@ -22,13 +23,22 @@ const projects = [
     id: 3,
     title: "GECU Logistics",
     description:
-    "GECU Logistics is a real-time parcel tracking tool that gives users accurate updates from dispatch to delivery. Try the demo with tracking number ABD112233445566 to see how it works.",
+      "GECU Logistics is a real-time parcel tracking tool that gives users accurate updates from dispatch to delivery. Try the demo with tracking number ABD112233445566 to see how it works.",
     image: "/projects/GECULogistics.png",
     tags: ["HTML/CSS", "Typescript", "React", "Java(Springboot)"],
     demoURL: "https://packagetracker-u8n9.onrender.com/",
   },
   {
     id: 4,
+    title: "Movie-Box",
+    description:
+      "MovieBox is a real-time movie discovery app built with Angular, using the TMDB API to showcase trending and newly released films with a sleek, responsive UI.",
+    image: "/projects/moviebox.png",
+    tags: ["Angular", "Typescrpt", "API", "HTML/CSS"],
+    demoURL: "https://movie-box-liart.vercel.app/home",
+  },
+  {
+    id: 5,
     title: "Blockchain Based Voting System",
     description:
       "Blockchain Based Voting System is a decentralized voting system that allows users to vote on a set of candidates. It is built using Hyperledger Besu and React.",
